@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <ImageButton
+            android:src="@drawable/close_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/face"
+            android:scaleType="fitXY"
+            android:onClick="setFace"
+            android:layout_above="@+id/selectFace"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:background="@drawable/action_item_background" />
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>
